@@ -1,0 +1,47 @@
+body {
+    background-color:rgb(197, 130, 130)
+}
+div {
+    font-family: Helvetica;
+    color: rgb(197, 130, 130);
+    font-size: 25px;
+    padding: 3px;
+    margin: 0;
+ }
+  #text{
+      color:black;
+      font-size: 40px;
+  }
+ #big_div {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5e0404;
+    align-items: center;
+ }
+  
+ #lil_div {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ #lil_div img {
+     margin-right: 60px;
+     width: 300px;
+     padding: 5px;
+ }
+  
+ #big_div img {
+    width: 115px;
+ }
+ 
+ .items:hover {
+    background-color: gray;
+    opacity: 0.5;
+ }
+  
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
