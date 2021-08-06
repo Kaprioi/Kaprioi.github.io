@@ -1,18 +1,17 @@
 body {
-    background-color:rgb(197, 130, 130)
+    background-image: url(images/mk.jpg)
 }
 div {
     font-family: Helvetica;
-    color: rgb(197, 130, 130);
     font-size: 25px;
     padding: 3px;
     margin: 0;
- }
-  #text{
-      color:black;
-      font-size: 40px;
-  }
- #big_div {
+}
+#text{
+    color:black;
+    font-size: 40px;
+}
+#big_div {
     display: flex;
     justify-content: space-around;
     background-color: #5e0404;
@@ -21,7 +20,8 @@ div {
   
  #lil_div {
      display: flex;
-     justify-content: flex-end;
+     justify-content: space-between;
+     padding: 0;
  }
 
  #lil_div img {
@@ -33,6 +33,17 @@ div {
  #big_div img {
     width: 115px;
  }
+
+ #mini_div {
+     color:black;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #mini_div li {
+    font-size: 25px;
+    justify-content: column;
+ }
  
  .items:hover {
     background-color: gray;
@@ -43,5 +54,13 @@ div {
     width: 20%;
     text-align: center;
     text-decoration: none;
+ }
+
+ #lines {
+     color:rgb(32, 5, 5);
+ }
+
+ #big_div a {
+    color: rgb(197, 130, 130);
  }
  
